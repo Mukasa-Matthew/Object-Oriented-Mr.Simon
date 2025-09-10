@@ -1,8 +1,5 @@
 """Object: Smartphone
 Class: Mobile Device
-Instances:
- iPhone 15 Pro, 256GB, Space Black
- Samsung Galaxy S24, 128GB, Titanium Gray
 """
 class Smartphone:
     def __init__(self, model, storage, color):
@@ -11,11 +8,6 @@ class Smartphone:
         self.color = color
 
 """Object: Bicycle
-Class: Vehicle
-Instances:
- Red Mountain Bike, 21 gears, Aluminum frame
- Blue Road Bike, 18 gears, Carbon frame
-"""
 class Bicycle:
     def __init__(self, type, gears, frame_material):
         self.type = type
@@ -23,10 +15,6 @@ class Bicycle:
         self.frame_material = frame_material
 
 """Object: Coffee
-Class: Beverage
-Instances:
- Large Latte, Oat Milk, Extra Shot
- Medium Cappuccino, Almond Milk, Decaf
 """
 class Coffee:
     def __init__(self, size, milk_type, special_requests):
@@ -35,10 +23,6 @@ class Coffee:
         self.special_requests = special_requests
 
 """Object: Guitar
-Class: Musical Instrument
-Instances:
- Fender Stratocaster, Electric, 6 strings
- Yamaha Acoustic, Steel strings, Natural finish
 """
 class Guitar:
     def __init__(self, brand, guitar_type, strings):
@@ -47,10 +31,6 @@ class Guitar:
         self.strings = strings
 
 """Object: Watch
-Class: Accessory
-Instances:
- Rolex Submariner, Gold, Waterproof 300m
- Apple Watch Series 9, Space Gray, GPS + Cellular
 """
 class Watch:
     def __init__(self, brand, material, features):
