@@ -57,7 +57,7 @@ if __name__ == "__main__":
     my_profile = Profile(
         name="Matthew",
         favorite_language="Javascript",
-        hobby="painting",
+        hobby="Swimming",
         tech_stack=["Python", "Django", "Git", "VS Code", "PostgreSQL", "Mysql"],
         github_username="Mukasa-Matthew",
         fun_fact="I love technology soo much, and am a quiet person!"
