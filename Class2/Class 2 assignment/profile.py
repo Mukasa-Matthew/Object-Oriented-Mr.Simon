@@ -57,7 +57,7 @@ if __name__ == "__main__":
     my_profile = Profile(
         name="Matthew",
         favorite_language="Javascript",
-        hobby="Swimming",
+        hobby="Swimmingbn ",
         tech_stack=["Python", "Django", "Git", "VS Code", "PostgreSQL", "Mysql"],
         github_username="Mukasa-Matthew",
         fun_fact="I love technology soo much, and am a quiet person!"
@@ -69,3 +69,5 @@ if __name__ == "__main__":
     my_profile.show_stack()  # Shows my tech stack
     print(f"\nGitHub Profile: {my_profile.github_link()}")  # Shows my GitHub URL
     print(f"\nFun Fact: {my_profile.fun_fact}")  # Shows my fun fact
+
+    
